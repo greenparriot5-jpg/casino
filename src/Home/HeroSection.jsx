@@ -27,10 +27,8 @@ function HeroSection() {
           {/* Image Box */}
           <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-1.5 shadow-lg shadow-slate-200/60">
             {/* IMAGE DOWNLOAD */}
-           <a
+       <a
   href="https://3pattino1.com?from_gameid=8254399&channelCode=7820420"
-  target="_blank"
-  rel="noopener noreferrer"
   className="block cursor-pointer"
 >
   <img
