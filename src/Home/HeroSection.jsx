@@ -29,17 +29,18 @@ function HeroSection() {
           {/* Image Box */}
           <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-1.5 shadow-lg shadow-slate-200/60">
 
-            <a
-              href="teenpattigold99.com?from_gameid=8756858&channelCode=100000"
-              download
-              className="block"
-            >
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MN1lsuiVrFyTwATTQIGECVNxf3W6lnkYL00Z66PJiJj1DJU-2q_1nY&s=10"
-                alt="Teen Patti Gold game"
-                className="block h-[230px] w-full rounded-xl object-cover sm:h-[280px]"
-              />
-            </a>
+            {/* IMAGE DOWNLOAD */}
+           <a
+  href="https://teenpattigold99.com?from_gameid=8756858&channelCode=100000"
+  download
+  className="block"
+>
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MN1lsuiVrFyTwATTQIGECVNxf3W6lnkYL00Z66PJiJj1DJU-2q_1nY&s=10"
+    alt="Teen Patti Gold game"
+    className="block h-[230px] w-full rounded-xl object-cover sm:h-[280px]"
+  />
+</a>
 
           </div>
         </div>
@@ -47,6 +48,7 @@ function HeroSection() {
         {/* ================= BUTTONS ================= */}
         <div className="mt-6 flex justify-center gap-3">
 
+          {/* Learn More */}
           <Link
             to="/about"
             className="rounded-lg border border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-700 shadow-sm transition duration-300 hover:-translate-y-0.5 hover:border-slate-300 hover:bg-slate-50"
@@ -54,14 +56,15 @@ function HeroSection() {
             Learn More
           </Link>
 
-          <a
-            href="teenpattigold99.com?from_gameid=8756858&channelCode=100000"
-            download
-            className="inline-flex items-center gap-2 rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-md shadow-yellow-200 transition duration-300 hover:-translate-y-0.5 hover:bg-yellow-300 hover:shadow-lg"
-          >
-            <FaDownload />
-            Download Now
-          </a>
+          {/* DOWNLOAD BUTTON */}
+         <a
+  href="https://teenpattigold99.com?from_gameid=8756858&channelCode=100000"
+  download
+  className="inline-flex items-center gap-2 rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-md shadow-yellow-200 transition duration-300 hover:-translate-y-0.5 hover:bg-yellow-300 hover:shadow-lg"
+>
+  <FaDownload />
+  Download Now
+</a>
 
         </div>
 
@@ -94,7 +97,6 @@ function HeroSection() {
 
           </div>
 
-
           {/* ================= MAIN ARTICLE CARD ================= */}
           <div className="mx-auto mt-12 max-w-5xl">
 
@@ -108,8 +110,8 @@ function HeroSection() {
                 </h3>
 
                 <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-                  Teen Patti Gold brings the familiar three-card game format into
-                  a modern digital environment. Our website is designed to
+                  Teen Patti Gold brings the familiar three-card game format
+                  into a modern digital environment. Our website is designed to
                   provide visitors with useful information about the game,
                   basic gameplay, card rankings, terminology and important
                   features in one convenient place.
@@ -122,7 +124,6 @@ function HeroSection() {
                 </p>
 
               </section>
-
 
               {/* ================= HOW TO PLAY ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
@@ -142,7 +143,6 @@ function HeroSection() {
                   Understanding the game flow makes it easier for new visitors
                   to follow each round.
                 </p>
-
 
                 <div className="mt-7 grid gap-4 sm:grid-cols-3">
 
@@ -164,7 +164,6 @@ function HeroSection() {
 
                   </div>
 
-
                   {/* STEP 2 */}
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
 
@@ -182,7 +181,6 @@ function HeroSection() {
                     </p>
 
                   </div>
-
 
                   {/* STEP 3 */}
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
@@ -206,7 +204,6 @@ function HeroSection() {
 
               </section>
 
-
               {/* ================= WINNING ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
 
@@ -227,7 +224,6 @@ function HeroSection() {
                   always come first.
                 </p>
 
-
                 <div className="mt-6 rounded-2xl border border-yellow-200 bg-yellow-50 p-6">
 
                   <h4 className="text-lg font-bold text-slate-900">
@@ -242,7 +238,6 @@ function HeroSection() {
                 </div>
 
               </section>
-
 
               {/* ================= EASY EXPERIENCE ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
@@ -262,10 +257,10 @@ function HeroSection() {
                   unnecessary complexity.
                 </p>
 
-
                 <div className="mt-7 grid gap-4 sm:grid-cols-3">
 
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+
                     <h4 className="font-bold text-slate-900">
                       Simple Navigation
                     </h4>
@@ -274,10 +269,11 @@ function HeroSection() {
                       Find important sections quickly through a clean website
                       structure.
                     </p>
+
                   </div>
 
-
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+
                     <h4 className="font-bold text-slate-900">
                       Useful Guides
                     </h4>
@@ -286,10 +282,11 @@ function HeroSection() {
                       Explore information about gameplay, cards and basic
                       terminology.
                     </p>
+
                   </div>
 
-
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+
                     <h4 className="font-bold text-slate-900">
                       Modern Design
                     </h4>
@@ -298,12 +295,12 @@ function HeroSection() {
                       Enjoy a modern layout created for comfortable browsing
                       across different devices.
                     </p>
+
                   </div>
 
                 </div>
 
               </section>
-
 
               {/* ================= DAILY UPDATES ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
@@ -323,12 +320,12 @@ function HeroSection() {
                   information and explore the latest updates.
                 </p>
 
-
                 <div className="mt-7 rounded-2xl border border-slate-200 bg-slate-50 p-6">
 
                   <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
 
                     <div>
+
                       <h4 className="text-lg font-bold text-slate-900">
                         Check Back for New Content
                       </h4>
@@ -337,6 +334,7 @@ function HeroSection() {
                         New guides and articles can make it easier to discover
                         and understand different aspects of Teen Patti Gold.
                       </p>
+
                     </div>
 
                     <a
@@ -351,7 +349,6 @@ function HeroSection() {
                 </div>
 
               </section>
-
 
               {/* ================= WEBSITE PAGES ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
@@ -368,11 +365,11 @@ function HeroSection() {
 
                   <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
                     Explore every section of our website to learn more about
-                    Teen Patti Gold, read fresh articles and find useful information.
+                    Teen Patti Gold, read fresh articles and find useful
+                    information.
                   </p>
 
                 </div>
-
 
                 {/* ================= PAGE CARDS ================= */}
                 <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
@@ -390,7 +387,6 @@ function HeroSection() {
                     </p>
                   </a>
 
-
                   <a
                     href="/about"
                     className="group rounded-2xl border border-slate-200 bg-slate-50 p-5 text-center transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:bg-white hover:shadow-lg"
@@ -403,7 +399,6 @@ function HeroSection() {
                       Learn more about us
                     </p>
                   </a>
-
 
                   <a
                     href="/blog"
@@ -418,7 +413,6 @@ function HeroSection() {
                     </p>
                   </a>
 
-
                   <a
                     href="/download"
                     className="group rounded-2xl border border-slate-200 bg-slate-50 p-5 text-center transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:bg-white hover:shadow-lg"
@@ -431,7 +425,6 @@ function HeroSection() {
                       Visit the download page
                     </p>
                   </a>
-
 
                   <a
                     href="/contact"
@@ -450,7 +443,6 @@ function HeroSection() {
 
               </section>
 
-
               {/* ================= FINAL CTA ================= */}
               <section className="mt-10 rounded-3xl bg-slate-900 px-6 py-9 text-center shadow-xl sm:px-10">
 
@@ -466,7 +458,6 @@ function HeroSection() {
                   Discover the world of Teen Patti Gold through useful guides,
                   fresh content and a simple modern website experience.
                 </p>
-
 
                 <div className="mt-6 flex flex-wrap justify-center gap-3">
 
@@ -503,7 +494,6 @@ function HeroSection() {
 
       </article>
 
-
       {/* ================= FOUR FEATURE BOXES ================= */}
       <section className="bg-gray-200 px-6 py-12 lg:px-8">
 
@@ -511,7 +501,7 @@ function HeroSection() {
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 
-            {/* ================= BOX 1 ================= */}
+            {/* BOX 1 */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-300 hover:shadow-md">
 
               <FaMobileAlt className="mx-auto text-3xl text-yellow-500" />
@@ -527,8 +517,7 @@ function HeroSection() {
 
             </div>
 
-
-            {/* ================= BOX 2 ================= */}
+            {/* BOX 2 */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-300 hover:shadow-md">
 
               <FaLayerGroup className="mx-auto text-3xl text-yellow-500" />
@@ -544,8 +533,7 @@ function HeroSection() {
 
             </div>
 
-
-            {/* ================= BOX 3 ================= */}
+            {/* BOX 3 */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-300 hover:shadow-md">
 
               <FaShieldAlt className="mx-auto text-3xl text-yellow-500" />
@@ -561,8 +549,7 @@ function HeroSection() {
 
             </div>
 
-
-            {/* ================= BOX 4 ================= */}
+            {/* BOX 4 */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-300 hover:shadow-md">
 
               <FaGamepad className="mx-auto text-3xl text-yellow-500" />
