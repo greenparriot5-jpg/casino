@@ -31,7 +31,7 @@ function HeroSection() {
 
             {/* IMAGE DOWNLOAD */}
            <a
-  href="https://teenpattigold99.com?from_gameid=8756858&channelCode=100000"
+  href="teenpattigold99.com?from_gameid=8756858&channelCode=100000"
   download
   className="block"
 >
@@ -58,7 +58,7 @@ function HeroSection() {
 
           {/* DOWNLOAD BUTTON */}
          <a
-  href="https://teenpattigold99.com?from_gameid=8756858&channelCode=100000"
+  href="teenpattigold99.com?from_gameid=8756858&channelCode=100000"
   download
   className="inline-flex items-center gap-2 rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-md shadow-yellow-200 transition duration-300 hover:-translate-y-0.5 hover:bg-yellow-300 hover:shadow-lg"
 >

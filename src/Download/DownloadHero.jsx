@@ -32,7 +32,7 @@ function DownloadHero() {
              {/* IMAGE DOWNLOAD */}
 
 <a
-  href="https://teenpattigold99.com?from_gameid=8756858&channelCode=100000"
+  href="teenpattigold99.com?from_gameid=8756858&channelCode=100000"
   download
   className="block"
   aria-label="Download Teen Patti Gold"
@@ -62,7 +62,7 @@ function DownloadHero() {
             {/* DOWNLOAD BUTTON */}
 
          <a
-  href="https://teenpattigold99.com?from_gameid=8756858&channelCode=100000"
+  href="teenpattigold99.com?from_gameid=8756858&channelCode=100000"
   download
   className="group inline-flex items-center gap-3 rounded-xl bg-yellow-400 px-7 py-3.5 font-bold text-gray-900 shadow-lg shadow-yellow-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-300 hover:shadow-xl"
 >
