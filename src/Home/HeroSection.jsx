@@ -12,7 +12,6 @@ function HeroSection() {
     <section className="bg-gray-200 text-slate-900">
       {/* ================= HERO TOP ================= */}
       <div className="mx-auto max-w-6xl px-6 pb-14 pt-10 lg:px-8">
-
         {/* Small Badge */}
         <div className="flex justify-center">
           <span className="rounded-full border border-yellow-400/30 bg-yellow-50 px-4 py-2 text-xs font-semibold text-yellow-600 sm:text-sm">
@@ -22,32 +21,28 @@ function HeroSection() {
 
         {/* ================= CENTER IMAGE ================= */}
         <div className="relative mx-auto mt-8 max-w-2xl">
-
           {/* Soft Glow */}
           <div className="absolute -inset-4 rounded-3xl bg-yellow-400/10 blur-2xl" />
 
           {/* Image Box */}
           <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-1.5 shadow-lg shadow-slate-200/60">
-
             {/* IMAGE DOWNLOAD */}
-           <a
-  href="teenpattigold99.com?from_gameid=8756858&channelCode=100000"
-  download
-  className="block"
->
-  <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MN1lsuiVrFyTwATTQIGECVNxf3W6lnkYL00Z66PJiJj1DJU-2q_1nY&s=10"
-    alt="Teen Patti Gold game"
-    className="block h-[230px] w-full rounded-xl object-cover sm:h-[280px]"
-  />
-</a>
-
+            <a
+              href="https://3pattino1.com?from_gameid=8254399&channelCode=7820420"
+              download
+              className="block"
+            >
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MN1lsuiVrFyTwATTQIGECVNxf3W6lnkYL00Z66PJiJj1DJU-2q_1nY&s=10"
+                alt="Teen Patti Gold game"
+                className="block h-[230px] w-full rounded-xl object-cover sm:h-[280px]"
+              />
+            </a>
           </div>
         </div>
 
         {/* ================= BUTTONS ================= */}
         <div className="mt-6 flex justify-center gap-3">
-
           {/* Learn More */}
           <Link
             to="/about"
@@ -57,27 +52,22 @@ function HeroSection() {
           </Link>
 
           {/* DOWNLOAD BUTTON */}
-         <a
-  href="teenpattigold99.com?from_gameid=8756858&channelCode=100000"
-  download
-  className="inline-flex items-center gap-2 rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-md shadow-yellow-200 transition duration-300 hover:-translate-y-0.5 hover:bg-yellow-300 hover:shadow-lg"
->
-  <FaDownload />
-  Download Now
-</a>
-
+          <a
+            href="https://3pattino1.com?from_gameid=8254399&channelCode=7820420"
+            download
+            className="inline-flex items-center gap-2 rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-md shadow-yellow-200 transition duration-300 hover:-translate-y-0.5 hover:bg-yellow-300 hover:shadow-lg"
+          >
+            <FaDownload />
+            Download Now
+          </a>
         </div>
-
       </div>
 
       {/* ================= PREMIUM TEEN PATTI GOLD ARTICLE ================= */}
       <article className="border-t border-slate-300 bg-gray-200">
-
         <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-20">
-
           {/* ================= HEADER ================= */}
           <div className="mx-auto max-w-4xl text-center">
-
             <p className="text-xs font-bold uppercase tracking-[0.25em] text-yellow-600">
               About Teen Patti Gold
             </p>
@@ -94,17 +84,13 @@ function HeroSection() {
               designed with simple navigation, useful information and an
               easy-to-understand interface for visitors.
             </p>
-
           </div>
 
           {/* ================= MAIN ARTICLE CARD ================= */}
           <div className="mx-auto mt-12 max-w-5xl">
-
             <div className="rounded-3xl border border-slate-300 bg-white p-7 shadow-lg shadow-slate-300/40 sm:p-10 lg:p-12">
-
               {/* ================= INTRO ================= */}
               <section>
-
                 <h3 className="text-2xl font-extrabold text-slate-900 sm:text-3xl">
                   Welcome to Teen Patti Gold
                 </h3>
@@ -112,9 +98,9 @@ function HeroSection() {
                 <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
                   Teen Patti Gold brings the familiar three-card game format
                   into a modern digital environment. Our website is designed to
-                  provide visitors with useful information about the game,
-                  basic gameplay, card rankings, terminology and important
-                  features in one convenient place.
+                  provide visitors with useful information about the game, basic
+                  gameplay, card rankings, terminology and important features in
+                  one convenient place.
                 </p>
 
                 <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
@@ -122,12 +108,10 @@ function HeroSection() {
                   or already understand the basic format, our goal is to keep
                   the experience simple, clear and easy to explore.
                 </p>
-
               </section>
 
               {/* ================= HOW TO PLAY ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
-
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-600">
                   How It Works
                 </p>
@@ -145,10 +129,8 @@ function HeroSection() {
                 </p>
 
                 <div className="mt-7 grid gap-4 sm:grid-cols-3">
-
                   {/* STEP 1 */}
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-400 font-extrabold text-slate-900">
                       1
                     </div>
@@ -161,12 +143,10 @@ function HeroSection() {
                       Understand the basic rules, card values and terminology
                       used throughout the Teen Patti Gold experience.
                     </p>
-
                   </div>
 
                   {/* STEP 2 */}
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-400 font-extrabold text-slate-900">
                       2
                     </div>
@@ -179,12 +159,10 @@ function HeroSection() {
                       Follow the round and understand how cards, hands and
                       different game actions work together.
                     </p>
-
                   </div>
 
                   {/* STEP 3 */}
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-400 font-extrabold text-slate-900">
                       3
                     </div>
@@ -194,19 +172,15 @@ function HeroSection() {
                     </h4>
 
                     <p className="mt-2 text-sm leading-6 text-slate-600">
-                      Learn how different card combinations are compared and
-                      how the result of a round is determined.
+                      Learn how different card combinations are compared and how
+                      the result of a round is determined.
                     </p>
-
                   </div>
-
                 </div>
-
               </section>
 
               {/* ================= WINNING ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
-
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-600">
                   Game Knowledge
                 </p>
@@ -219,13 +193,12 @@ function HeroSection() {
                   A good understanding of card rankings and game rules is
                   important when learning Teen Patti Gold. The outcome of a
                   round depends on the cards dealt and the rules being used.
-                  There is no guaranteed strategy that can win every round,
-                  so learning the game and understanding its rules should
-                  always come first.
+                  There is no guaranteed strategy that can win every round, so
+                  learning the game and understanding its rules should always
+                  come first.
                 </p>
 
                 <div className="mt-6 rounded-2xl border border-yellow-200 bg-yellow-50 p-6">
-
                   <h4 className="text-lg font-bold text-slate-900">
                     Learn Before You Play
                   </h4>
@@ -234,14 +207,11 @@ function HeroSection() {
                     Understanding the basic rules, card rankings and game flow
                     can make the Teen Patti Gold experience easier to follow.
                   </p>
-
                 </div>
-
               </section>
 
               {/* ================= EASY EXPERIENCE ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
-
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-600">
                   Simple Experience
                 </p>
@@ -252,15 +222,13 @@ function HeroSection() {
 
                 <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
                   Teen Patti Gold is presented with a clean and straightforward
-                  interface. Visitors can move between different sections,
-                  read useful guides and find information without dealing with
+                  interface. Visitors can move between different sections, read
+                  useful guides and find information without dealing with
                   unnecessary complexity.
                 </p>
 
                 <div className="mt-7 grid gap-4 sm:grid-cols-3">
-
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-
                     <h4 className="font-bold text-slate-900">
                       Simple Navigation
                     </h4>
@@ -269,42 +237,30 @@ function HeroSection() {
                       Find important sections quickly through a clean website
                       structure.
                     </p>
-
                   </div>
 
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-
-                    <h4 className="font-bold text-slate-900">
-                      Useful Guides
-                    </h4>
+                    <h4 className="font-bold text-slate-900">Useful Guides</h4>
 
                     <p className="mt-2 text-sm leading-6 text-slate-600">
                       Explore information about gameplay, cards and basic
                       terminology.
                     </p>
-
                   </div>
 
                   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-
-                    <h4 className="font-bold text-slate-900">
-                      Modern Design
-                    </h4>
+                    <h4 className="font-bold text-slate-900">Modern Design</h4>
 
                     <p className="mt-2 text-sm leading-6 text-slate-600">
                       Enjoy a modern layout created for comfortable browsing
                       across different devices.
                     </p>
-
                   </div>
-
                 </div>
-
               </section>
 
               {/* ================= DAILY UPDATES ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
-
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-600">
                   Always Updated
                 </p>
@@ -321,11 +277,8 @@ function HeroSection() {
                 </p>
 
                 <div className="mt-7 rounded-2xl border border-slate-200 bg-slate-50 p-6">
-
                   <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-
                     <div>
-
                       <h4 className="text-lg font-bold text-slate-900">
                         Check Back for New Content
                       </h4>
@@ -334,7 +287,6 @@ function HeroSection() {
                         New guides and articles can make it easier to discover
                         and understand different aspects of Teen Patti Gold.
                       </p>
-
                     </div>
 
                     <a
@@ -343,18 +295,13 @@ function HeroSection() {
                     >
                       Visit Blog
                     </a>
-
                   </div>
-
                 </div>
-
               </section>
 
               {/* ================= WEBSITE PAGES ================= */}
               <section className="mt-10 border-t border-slate-200 pt-10">
-
                 <div className="text-center">
-
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-600">
                     Explore Teen Patti Gold
                   </p>
@@ -368,12 +315,10 @@ function HeroSection() {
                     Teen Patti Gold, read fresh articles and find useful
                     information.
                   </p>
-
                 </div>
 
                 {/* ================= PAGE CARDS ================= */}
                 <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-
                   <a
                     href="/"
                     className="group rounded-2xl border border-slate-200 bg-slate-50 p-5 text-center transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:bg-white hover:shadow-lg"
@@ -438,14 +383,11 @@ function HeroSection() {
                       Get in touch with us
                     </p>
                   </a>
-
                 </div>
-
               </section>
 
               {/* ================= FINAL CTA ================= */}
               <section className="mt-10 rounded-3xl bg-slate-900 px-6 py-9 text-center shadow-xl sm:px-10">
-
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-yellow-400">
                   Teen Patti Gold
                 </p>
@@ -460,7 +402,6 @@ function HeroSection() {
                 </p>
 
                 <div className="mt-6 flex flex-wrap justify-center gap-3">
-
                   <a
                     href="/about"
                     className="rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-900 transition duration-300 hover:bg-yellow-300"
@@ -481,29 +422,19 @@ function HeroSection() {
                   >
                     Contact Us
                   </a>
-
                 </div>
-
               </section>
-
             </div>
-
           </div>
-
         </div>
-
       </article>
 
       {/* ================= FOUR FEATURE BOXES ================= */}
       <section className="bg-gray-200 px-6 py-12 lg:px-8">
-
         <div className="mx-auto max-w-6xl">
-
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-
             {/* BOX 1 */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-300 hover:shadow-md">
-
               <FaMobileAlt className="mx-auto text-3xl text-yellow-500" />
 
               <h3 className="mt-4 text-lg font-bold text-slate-900">
@@ -514,12 +445,10 @@ function HeroSection() {
                 A responsive interface designed for comfortable viewing on
                 mobile devices.
               </p>
-
             </div>
 
             {/* BOX 2 */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-300 hover:shadow-md">
-
               <FaLayerGroup className="mx-auto text-3xl text-yellow-500" />
 
               <h3 className="mt-4 text-lg font-bold text-slate-900">
@@ -527,15 +456,13 @@ function HeroSection() {
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-slate-500">
-                Organized content helps visitors quickly understand the game
-                and its features.
+                Organized content helps visitors quickly understand the game and
+                its features.
               </p>
-
             </div>
 
             {/* BOX 3 */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-300 hover:shadow-md">
-
               <FaShieldAlt className="mx-auto text-3xl text-yellow-500" />
 
               <h3 className="mt-4 text-lg font-bold text-slate-900">
@@ -546,12 +473,10 @@ function HeroSection() {
                 Helpful information about card rankings, terminology and game
                 basics.
               </p>
-
             </div>
 
             {/* BOX 4 */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-300 hover:shadow-md">
-
               <FaGamepad className="mx-auto text-3xl text-yellow-500" />
 
               <h3 className="mt-4 text-lg font-bold text-slate-900">
@@ -562,15 +487,10 @@ function HeroSection() {
                 A clean and modern presentation built around a three-card game
                 experience.
               </p>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
-
     </section>
   );
 }
