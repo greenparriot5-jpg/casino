@@ -27,9 +27,9 @@ function HeroSection() {
           {/* Image Box */}
           <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-1.5 shadow-lg shadow-slate-200/60">
             {/* IMAGE DOWNLOAD */}
-       <a
+ <a
   href="https://3pattino1.com?from_gameid=8254399&channelCode=7820420"
-  className="block cursor-pointer"
+  className="block w-full cursor-pointer"
 >
   <img
     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MN1lsuiVrFyTwATTQIGECVNxf3W6lnkYL00Z66PJiJj1DJU-2q_1nY&s=10"
