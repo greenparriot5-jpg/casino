@@ -27,17 +27,18 @@ function HeroSection() {
           {/* Image Box */}
           <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-1.5 shadow-lg shadow-slate-200/60">
             {/* IMAGE DOWNLOAD */}
-            <a
-              href="https://3pattino1.com?from_gameid=8254399&channelCode=7820420"
-              download
-              className="block"
-            >
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MN1lsuiVrFyTwATTQIGECVNxf3W6lnkYL00Z66PJiJj1DJU-2q_1nY&s=10"
-                alt="Teen Patti Gold game"
-                className="block h-[230px] w-full rounded-xl object-cover sm:h-[280px]"
-              />
-            </a>
+           <a
+  href="https://3pattino1.com?from_gameid=8254399&channelCode=7820420"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block cursor-pointer"
+>
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MN1lsuiVrFyTwATTQIGECVNxf3W6lnkYL00Z66PJiJj1DJU-2q_1nY&s=10"
+    alt="Teen Patti Gold game"
+    className="block h-[230px] w-full rounded-xl object-cover sm:h-[280px]"
+  />
+</a>
           </div>
         </div>
 
