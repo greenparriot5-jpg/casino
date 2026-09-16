@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FaBars, FaTimes, FaCrown } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const logoImage =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6MN1lsuiVrFyTwATTQIGECVNxf3W6lnkYL00Z66PJiJj1DJU-2q_1nY&s=10";
 
   const navLinks = [
     { name: "Home", path: "/" },
@@ -23,8 +26,12 @@ function Header() {
           onClick={() => setMenuOpen(false)}
           className="group flex items-center gap-3"
         >
-          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-yellow-400 text-slate-950 shadow-lg shadow-yellow-400/20 transition duration-300 group-hover:scale-105 group-hover:rotate-3">
-            <FaCrown className="text-lg" />
+          <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-white shadow-lg shadow-yellow-400/20 transition duration-300 group-hover:scale-105">
+            <img
+              src={logoImage}
+              alt="Teen Patti Gold"
+              className="h-full w-full object-cover"
+            />
           </div>
 
           <div>
@@ -34,7 +41,7 @@ function Header() {
             </h1>
 
             <p className="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-white">
-             Free Download Now
+              Free Download Now
             </p>
           </div>
         </NavLink>

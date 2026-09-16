@@ -1,338 +1,102 @@
-function ContentSection() {
+import React from "react";
+
+const ContentSection = () => {
   return (
-    <section className="bg-gray-200 py-16 text-slate-800 sm:py-20 lg:py-24">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <section className="bg-gray-200 py-16 px-4">
+      <div className="max-w-5xl mx-auto">
+        <article className="bg-white rounded-2xl shadow-md p-6 md:p-10 text-gray-700 leading-8">
 
-        {/* ================= SECTION HEADING ================= */}
-        <div className="mx-auto max-w-3xl text-center">
-
-          <span className="text-sm font-bold uppercase tracking-wider text-yellow-600">
-            About Teen Patti Gold
-          </span>
-
-          <h2 className="mt-3 text-3xl font-extrabold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Understanding Teen Patti Gold
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            Teen Patti Gold – Play 3 Patti Online and Enjoy Classic Card Games
           </h2>
 
-          <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">
-            Teen Patti Gold is associated with the popular Teen Patti style
-            of card games. This section provides a general overview of
-            Teen Patti Gold, its format, common features and terminology.
+          <p className="mb-5">
+            Teen Patti Gold is a popular online card game that brings the
+            traditional Teen Patti experience to mobile devices. Also known as
+            3 Patti, Teen Patti is one of the most familiar Indian-style card
+            games enjoyed by players around the world. Teen Patti Gold combines
+            the classic three-card gameplay with a modern online gaming
+            experience, allowing players to enjoy different game modes,
+            multiplayer tables, private rooms, and social features. Whether you
+            are a beginner looking for a simple 3 Patti game or an experienced
+            player who already knows the basic Teen Patti rules, Teen Patti Gold
+            offers different options to explore.
           </p>
 
-        </div>
-
-        {/* ================= ARTICLE CONTENT ================= */}
-        <article className="mx-auto mt-14 max-w-4xl">
-
-          {/* ================= INTRODUCTION ================= */}
-          <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">
-            What Is Teen Patti Gold?
-          </h2>
-
-          <p className="mt-5 text-base leading-8 text-slate-600">
-            Teen Patti Gold is presented as a digital card-game experience
-            based around the traditional Teen Patti format. The game is
-            generally built around three-card hands and familiar
-            card-ranking concepts.
+          <p className="mb-5">
+            One of the most common searches related to this game is Teen Patti
+            Gold download. Players who want to install the game should always
+            use an official or trusted source and make sure they are downloading
+            the genuine application. A secure download is important because
+            unofficial APK websites can sometimes provide modified or unsafe
+            files. After installing Teen Patti Gold, players can open the game,
+            explore the available features, and choose a suitable table or game
+            mode. The exact features and availability can change with future
+            updates, so keeping the application updated is recommended.
           </p>
 
-          <p className="mt-5 text-base leading-8 text-slate-600">
-            Teen Patti Gold can provide a modern digital interface with
-            different tables, multiplayer-style features and other
-            interactive elements. Available features and game modes can
-            vary depending on the particular version or platform.
+          <p className="mb-5">
+            Learning how to play Teen Patti is relatively easy. In the standard
+            version, players receive three cards and compare their hands
+            according to the traditional Teen Patti ranking system. Common hand
+            rankings include Trail, Pure Sequence, Sequence, Colour, Pair, and
+            High Card. Understanding these combinations is an important first
+            step for anyone searching for Teen Patti game rules or learning how
+            to play 3 Patti online. Once the basic rankings are understood,
+            beginners can gradually become familiar with the different table
+            options and game variations.
           </p>
 
-          {/* ================= GAME OVERVIEW ================= */}
-          <h2 className="mt-12 text-2xl font-bold text-slate-900 sm:text-3xl">
-            Teen Patti Gold Game Overview
-          </h2>
-
-          <p className="mt-5 text-base leading-8 text-slate-600">
-            The main appeal of Teen Patti Gold comes from its familiar
-            three-card format, simple hand structure and recognizable
-            card combinations. Players typically receive three cards and
-            compare hands according to the applicable ranking system.
+          <p className="mb-5">
+            Another reason Teen Patti Gold attracts players is its multiplayer
+            experience. Online Teen Patti allows players to enjoy card games
+            with friends and other participants instead of playing alone.
+            Private rooms can also be useful when friends want to play together
+            in the same table. Social features such as chat and interactive
+            elements can make the experience feel more like sitting around a
+            traditional card table. For players who enjoy casual multiplayer
+            entertainment, these features add another level of interaction to
+            the game.
           </p>
 
-          <p className="mt-5 text-base leading-8 text-slate-600">
-            For anyone learning about Teen Patti Gold, understanding the
-            basic hand structure, card rankings and terminology can make
-            the overall experience easier to follow and understand.
+          <p className="mb-5">
+            Teen Patti Gold also provides different variations and additional
+            card-game experiences. Depending on the current version, players
+            may find popular Teen Patti variations along with other games such
+            as Rummy, Poker, or Andar Bahar. Different modes give returning
+            players more ways to enjoy online card games and discover new
+            gameplay styles. Beginners can start with the standard Teen Patti
+            format and then explore other variations after becoming comfortable
+            with the basic rules.
           </p>
 
-          {/* ================= FEATURES ================= */}
-          <h2 className="mt-12 text-2xl font-bold text-slate-900 sm:text-3xl">
-            Teen Patti Gold Features and Characteristics
-          </h2>
-
-          <div className="mt-6 grid gap-5 sm:grid-cols-2">
-
-            {/* CARD 1 */}
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-              <h3 className="text-lg font-bold text-slate-900">
-                Teen Patti Gold Card Format
-              </h3>
-
-              <p className="mt-3 leading-7 text-slate-600">
-                Teen Patti Gold is built around a three-card format with
-                established card-ranking combinations and a simple hand
-                structure.
-              </p>
-            </div>
-
-            {/* CARD 2 */}
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-              <h3 className="text-lg font-bold text-slate-900">
-                Teen Patti Gold Multiplayer
-              </h3>
-
-              <p className="mt-3 leading-7 text-slate-600">
-                Teen Patti Gold can provide a multiplayer-style card-game
-                environment with tables involving multiple players and
-                different game-room configurations.
-              </p>
-            </div>
-
-            {/* CARD 3 */}
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-              <h3 className="text-lg font-bold text-slate-900">
-                Teen Patti Gold Interface
-              </h3>
-
-              <p className="mt-3 leading-7 text-slate-600">
-                Teen Patti Gold can feature a modern digital interface
-                with organized tables, menus, player information and
-                interactive controls.
-              </p>
-            </div>
-
-            {/* CARD 4 */}
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-              <h3 className="text-lg font-bold text-slate-900">
-                Teen Patti Gold Quick Rounds
-              </h3>
-
-              <p className="mt-3 leading-7 text-slate-600">
-                The Teen Patti Gold three-card format is generally
-                structured around comparatively short rounds and
-                straightforward hand evaluation.
-              </p>
-            </div>
-
-          </div>
-
-          {/* ================= INFORMATION TABLE ================= */}
-          <h2 className="mt-14 text-2xl font-bold text-slate-900 sm:text-3xl">
-            Teen Patti Gold – General Information
-          </h2>
-
-          <div className="mt-6 overflow-x-auto rounded-2xl border border-slate-200 shadow-sm">
-
-            <table className="w-full min-w-[650px] border-collapse text-left">
-
-              <thead>
-                <tr className="bg-slate-900 text-white">
-
-                  <th className="px-5 py-4 text-sm font-bold">
-                    Property
-                  </th>
-
-                  <th className="px-5 py-4 text-sm font-bold">
-                    Teen Patti Gold Information
-                  </th>
-
-                </tr>
-              </thead>
-
-              <tbody className="divide-y divide-slate-200">
-
-                <tr>
-                  <td className="px-5 py-4 font-semibold">
-                    Game Name
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Teen Patti Gold
-                  </td>
-                </tr>
-
-                <tr className="bg-slate-50">
-                  <td className="px-5 py-4 font-semibold">
-                    Game Category
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Digital Card Game
-                  </td>
-                </tr>
-
-                <tr>
-                  <td className="px-5 py-4 font-semibold">
-                    Traditional Game
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Teen Patti
-                  </td>
-                </tr>
-
-                <tr className="bg-slate-50">
-                  <td className="px-5 py-4 font-semibold">
-                    Card Format
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Three cards per hand
-                  </td>
-                </tr>
-
-                <tr>
-                  <td className="px-5 py-4 font-semibold">
-                    Common Deck
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Standard playing-card deck
-                  </td>
-                </tr>
-
-                <tr className="bg-slate-50">
-                  <td className="px-5 py-4 font-semibold">
-                    Game Type
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Multiplayer card-game format
-                  </td>
-                </tr>
-
-                <tr>
-                  <td className="px-5 py-4 font-semibold">
-                    Main Concept
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Comparing three-card hands
-                  </td>
-                </tr>
-
-                <tr className="bg-slate-50">
-                  <td className="px-5 py-4 font-semibold">
-                    Hand Structure
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Teen Patti Gold card combinations
-                  </td>
-                </tr>
-
-                <tr>
-                  <td className="px-5 py-4 font-semibold">
-                    Interface
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Digital and interactive
-                  </td>
-                </tr>
-
-                <tr className="bg-slate-50">
-                  <td className="px-5 py-4 font-semibold">
-                    Platform
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Depends on the specific version
-                  </td>
-                </tr>
-
-                <tr>
-                  <td className="px-5 py-4 font-semibold">
-                    Game Modes
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    May vary by platform or version
-                  </td>
-                </tr>
-
-                <tr className="bg-slate-50">
-                  <td className="px-5 py-4 font-semibold">
-                    Visual Style
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Modern Teen Patti Gold digital card-table interface
-                  </td>
-                </tr>
-
-                <tr>
-                  <td className="px-5 py-4 font-semibold">
-                    Accessibility
-                  </td>
-
-                  <td className="px-5 py-4 text-slate-600">
-                    Depends on the supported platform
-                  </td>
-                </tr>
-
-              </tbody>
-
-            </table>
-
-          </div>
-
-          {/* ================= MORE ARTICLE ================= */}
-          <h2 className="mt-14 text-2xl font-bold text-slate-900 sm:text-3xl">
-            How Teen Patti Gold Works
-          </h2>
-
-          <p className="mt-5 text-base leading-8 text-slate-600">
-            Teen Patti Gold is based around a traditional three-card
-            format where each player receives three cards. The cards are
-            evaluated according to a defined ranking system, with stronger
-            combinations ranking above weaker combinations. The exact
-            rules and available features can differ between versions,
-            so players should always review the rules provided by the
-            specific Teen Patti Gold platform they are using.
+          <p className="mb-5">
+            If you are searching for the best Teen Patti game, 3 Patti online,
+            Teen Patti Gold APK, or Teen Patti Gold download, it is important to
+            understand that card games involve chance. There is no guaranteed
+            trick or strategy that can predict every hand or guarantee a
+            particular result. Players should use the game for entertainment,
+            follow the applicable rules and age requirements, and avoid
+            unofficial tools, modified applications, or suspicious links that
+            promise unlimited rewards or guaranteed results.
           </p>
 
-          {/* ================= CARD RANKINGS ================= */}
-          <h2 className="mt-12 text-2xl font-bold text-slate-900 sm:text-3xl">
-            Teen Patti Gold Card Rankings
-          </h2>
-
-          <p className="mt-5 text-base leading-8 text-slate-600">
-            Common Teen Patti Gold terminology includes combinations such
-            as three-of-a-kind, straight sequence, flush, pair and high
-            card. The order and exact interpretation of these combinations
-            should always be checked against the rules of the particular
-            Teen Patti Gold version or platform.
+          <p>
+            Overall, Teen Patti Gold offers a modern digital version of the
+            traditional Teen Patti experience. Its simple rules, multiplayer
+            gameplay, private tables, different variations, and social features
+            make it an interesting choice for people who enjoy online card
+            games. If you are new to Teen Patti, start by learning the basic
+            card rankings and gameplay. If you are already familiar with 3
+            Patti, you can explore different variations and multiplayer
+            features. Always download the game from a trusted source and enjoy
+            Teen Patti Gold responsibly as a form of digital entertainment.
           </p>
-
-          {/* ================= IMPORTANT INFORMATION ================= */}
-          <div className="mt-12 rounded-2xl border border-yellow-200 bg-yellow-50 p-6">
-
-            <h3 className="text-lg font-bold text-slate-900">
-              Important Teen Patti Gold Information
-            </h3>
-
-            <p className="mt-3 leading-7 text-slate-700">
-              Teen Patti Gold rules, features, availability and platform
-              support can change between different versions. Always check
-              the applicable rules, age requirements and local laws before
-              using any card-game platform.
-            </p>
-
-          </div>
 
         </article>
-
       </div>
     </section>
   );
-}
+};
 
 export default ContentSection;

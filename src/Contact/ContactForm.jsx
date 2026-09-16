@@ -1,11 +1,4 @@
 import { useState } from "react";
-import {
-  FaUser,
-  FaEnvelope,
-  FaTag,
-  FaCommentDots,
-  FaPaperPlane,
-} from "react-icons/fa";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -38,7 +31,7 @@ function ContactForm() {
   return (
     <section
       id="contact-form"
-      className="bg-slate-100 py-16 sm:py-20 lg:py-24"
+      className="bg-gray-200 py-16 sm:py-20 lg:py-24"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -60,8 +53,7 @@ function ContactForm() {
 
         {/* Form Area */}
         <div className="mx-auto mt-14 max-w-4xl">
-
-          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-xl sm:p-8 lg:p-10">
+          <div className="rounded-3xl border border-slate-300 bg-white p-6 shadow-xl sm:p-8 lg:p-10">
 
             <form onSubmit={handleSubmit}>
 
@@ -72,9 +64,8 @@ function ContactForm() {
                 <div>
                   <label
                     htmlFor="name"
-                    className="mb-2 flex items-center gap-2 text-sm font-bold text-slate-800"
+                    className="mb-2 block text-sm font-bold text-slate-800"
                   >
-                    <FaUser className="text-yellow-500" />
                     Your Name
                   </label>
 
@@ -94,9 +85,8 @@ function ContactForm() {
                 <div>
                   <label
                     htmlFor="email"
-                    className="mb-2 flex items-center gap-2 text-sm font-bold text-slate-800"
+                    className="mb-2 block text-sm font-bold text-slate-800"
                   >
-                    <FaEnvelope className="text-yellow-500" />
                     Email Address
                   </label>
 
@@ -118,9 +108,8 @@ function ContactForm() {
               <div className="mt-6">
                 <label
                   htmlFor="subject"
-                  className="mb-2 flex items-center gap-2 text-sm font-bold text-slate-800"
+                  className="mb-2 block text-sm font-bold text-slate-800"
                 >
-                  <FaTag className="text-yellow-500" />
                   Subject
                 </label>
 
@@ -140,9 +129,8 @@ function ContactForm() {
               <div className="mt-6">
                 <label
                   htmlFor="message"
-                  className="mb-2 flex items-center gap-2 text-sm font-bold text-slate-800"
+                  className="mb-2 block text-sm font-bold text-slate-800"
                 >
-                  <FaCommentDots className="text-yellow-500" />
                   Your Message
                 </label>
 
@@ -162,18 +150,15 @@ function ContactForm() {
               <div className="mt-8">
                 <button
                   type="submit"
-                  className="group inline-flex w-full items-center justify-center gap-3 rounded-xl bg-slate-950 px-7 py-4 font-bold text-white shadow-lg transition duration-300 hover:-translate-y-1 hover:bg-yellow-400 hover:text-slate-950 hover:shadow-xl hover:shadow-yellow-400/20 sm:w-auto"
+                  className="inline-flex w-full items-center justify-center rounded-xl bg-yellow-400 px-7 py-4 font-bold text-slate-950 shadow-lg transition duration-300 hover:-translate-y-1 hover:bg-yellow-300 hover:shadow-xl hover:shadow-yellow-400/20 sm:w-auto"
                 >
                   Send Message
-
-                  <FaPaperPlane className="transition-transform duration-300 group-hover:translate-x-1" />
                 </button>
               </div>
 
             </form>
 
           </div>
-
         </div>
 
       </div>

@@ -1,5 +1,3 @@
-import { FaEnvelope, FaArrowDown } from "react-icons/fa";
-
 function ContactHero() {
   return (
     <section className="relative overflow-hidden bg-gray-200 py-8 text-slate-900 sm:py-10 lg:py-12">
@@ -14,8 +12,7 @@ function ContactHero() {
         <div className="mx-auto max-w-4xl text-center">
 
           {/* Badge */}
-          <span className="inline-flex items-center gap-2 rounded-full border border-yellow-400/40 bg-yellow-50 px-5 py-2 text-sm font-semibold text-yellow-700 shadow-sm">
-            <FaEnvelope />
+          <span className="inline-flex items-center rounded-full border border-yellow-400/40 bg-yellow-50 px-5 py-2 text-sm font-semibold text-yellow-700 shadow-sm">
             Contact Us
           </span>
 
@@ -41,7 +38,9 @@ function ContactHero() {
             >
               Contact Information
 
-              <FaArrowDown className="transition-transform duration-300 group-hover:translate-y-1" />
+              <span className="transition-transform duration-300 group-hover:translate-y-1">
+                ↓
+              </span>
             </a>
           </div>
 
