@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutContent = () => {
   return (
-    <section className="bg-gray-200 py-16 px-4">
-      <div className="max-w-5xl mx-auto">
-        <article className="bg-white rounded-2xl shadow-md p-6 md:p-10 text-gray-700 leading-8">
+    <section id="about-content" className="bg-gray-200 px-4 py-16">
+      <div className="mx-auto max-w-5xl">
+        <article className="rounded-2xl bg-white p-6 leading-8 text-gray-700 shadow-md md:p-10">
 
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+          {/* Main Heading */}
+          <h2 className="mb-6 text-3xl font-bold text-gray-900 md:text-4xl">
             About Teen Patti Gold – A Modern Way to Enjoy the Classic 3 Patti Experience
           </h2>
 
@@ -139,6 +141,45 @@ const AboutContent = () => {
             tradition, combining classic three-card gameplay with the
             convenience and social possibilities of a modern online platform.
           </p>
+
+          {/* Internal Links */}
+          <div className="mt-10 border-t border-gray-200 pt-8">
+            <h2 className="mb-5 text-2xl font-bold text-gray-900">
+              Explore Teen Patti Gold
+            </h2>
+
+            <div className="flex flex-wrap gap-3">
+
+              <Link
+                to="/"
+                className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+              >
+                Home
+              </Link>
+
+              <Link
+                to="/blog"
+                className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+              >
+                Teen Patti Gold Blog
+              </Link>
+
+              <Link
+                to="/download"
+                className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+              >
+                Download Teen Patti Gold
+              </Link>
+
+              <Link
+                to="/contact"
+                className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+              >
+                Contact Us
+              </Link>
+
+            </div>
+          </div>
 
         </article>
       </div>

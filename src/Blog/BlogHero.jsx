@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FaBookOpen, FaArrowDown } from "react-icons/fa";
 
 function BlogHero() {
@@ -18,7 +19,7 @@ function BlogHero() {
             Teen Patti Gold Blog
           </span>
 
-          {/* Heading */}
+          {/* Main H1 */}
           <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
             Latest
             <span className="text-yellow-500"> Game Insights</span>
@@ -48,9 +49,9 @@ function BlogHero() {
           <div className="mt-9 grid gap-4 sm:grid-cols-3">
 
             <div className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <div className="text-3xl font-extrabold text-yellow-500">
+              <h2 className="text-3xl font-extrabold text-yellow-500">
                 Guides
-              </div>
+              </h2>
 
               <p className="mt-2 text-sm text-slate-500">
                 Helpful game information
@@ -58,9 +59,9 @@ function BlogHero() {
             </div>
 
             <div className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <div className="text-3xl font-extrabold text-yellow-500">
+              <h2 className="text-3xl font-extrabold text-yellow-500">
                 Tips
-              </div>
+              </h2>
 
               <p className="mt-2 text-sm text-slate-500">
                 Card-game knowledge
@@ -68,9 +69,9 @@ function BlogHero() {
             </div>
 
             <div className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <div className="text-3xl font-extrabold text-yellow-500">
+              <h2 className="text-3xl font-extrabold text-yellow-500">
                 Insights
-              </div>
+              </h2>
 
               <p className="mt-2 text-sm text-slate-500">
                 General game articles

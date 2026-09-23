@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -30,7 +31,7 @@ function ContactForm() {
 
   return (
     <section
-      id="contact-form"
+      id="contact-content"
       className="bg-gray-200 py-16 sm:py-20 lg:py-24"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -48,6 +49,8 @@ function ContactForm() {
           <p className="mt-5 text-base leading-8 text-slate-600">
             Fill out the form below with your details and message.
             Make sure the information you provide is clear and relevant.
+            If you need general information about Teen Patti Gold,
+            you can also explore our other website pages below.
           </p>
         </div>
 
@@ -157,6 +160,45 @@ function ContactForm() {
               </div>
 
             </form>
+
+            {/* Internal Links */}
+            <div className="mt-10 border-t border-slate-200 pt-8">
+              <h2 className="mb-5 text-2xl font-bold text-slate-900">
+                Explore Teen Patti Gold
+              </h2>
+
+              <div className="flex flex-wrap gap-3">
+
+                <Link
+                  to="/"
+                  className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+                >
+                  Home
+                </Link>
+
+                <Link
+                  to="/about"
+                  className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+                >
+                  About
+                </Link>
+
+                <Link
+                  to="/blog"
+                  className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+                >
+                  Blog
+                </Link>
+
+                <Link
+                  to="/download"
+                  className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+                >
+                  Download
+                </Link>
+
+              </div>
+            </div>
 
           </div>
         </div>

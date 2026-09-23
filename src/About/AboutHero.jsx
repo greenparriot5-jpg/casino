@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AboutHero() {
   return (
     <section className="relative overflow-hidden bg-gray-200 py-8 text-slate-900 sm:py-10 lg:py-12">
@@ -15,7 +17,7 @@ function AboutHero() {
             About Teen Patti Gold
           </span>
 
-          {/* Heading */}
+          {/* Main H1 */}
           <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
             Discover the World of
             <span className="block text-yellow-500">
@@ -40,45 +42,42 @@ function AboutHero() {
               Learn More
             </a>
 
-            <a
-              href="/"
+            <Link
+              to="/"
               className="rounded-xl border border-slate-300 bg-white px-7 py-3.5 font-bold text-slate-800 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:bg-yellow-50"
             >
               Back to Home
-            </a>
+            </Link>
 
           </div>
 
           {/* Stats */}
           <div className="mt-9 grid grid-cols-1 gap-4 sm:grid-cols-3">
 
-            {/* Card 1 */}
             <div className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <h3 className="text-2xl font-extrabold text-yellow-500">
+              <h2 className="text-2xl font-extrabold text-yellow-500">
                 3
-              </h3>
+              </h2>
 
               <p className="mt-1 text-sm text-slate-500">
                 Cards Per Hand
               </p>
             </div>
 
-            {/* Card 2 */}
             <div className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <h3 className="text-2xl font-extrabold text-yellow-500">
+              <h2 className="text-2xl font-extrabold text-yellow-500">
                 Classic
-              </h3>
+              </h2>
 
               <p className="mt-1 text-sm text-slate-500">
                 Card Game Format
               </p>
             </div>
 
-            {/* Card 3 */}
             <div className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <h3 className="text-2xl font-extrabold text-yellow-500">
+              <h2 className="text-2xl font-extrabold text-yellow-500">
                 Digital
-              </h3>
+              </h2>
 
               <p className="mt-1 text-sm text-slate-500">
                 Modern Experience

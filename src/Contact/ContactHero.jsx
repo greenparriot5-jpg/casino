@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ContactHero() {
   return (
     <section className="relative overflow-hidden bg-gray-200 py-8 text-slate-900 sm:py-10 lg:py-12">
@@ -16,7 +18,7 @@ function ContactHero() {
             Contact Us
           </span>
 
-          {/* Heading */}
+          {/* Main H1 */}
           <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
             Get in
             <span className="text-yellow-500"> Touch</span>
@@ -49,9 +51,9 @@ function ContactHero() {
 
             {/* Support */}
             <div className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <div className="text-3xl font-extrabold text-yellow-500">
+              <h2 className="text-3xl font-extrabold text-yellow-500">
                 Support
-              </div>
+              </h2>
 
               <p className="mt-2 text-sm leading-6 text-slate-500">
                 General questions and assistance
@@ -60,9 +62,9 @@ function ContactHero() {
 
             {/* Feedback */}
             <div className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <div className="text-3xl font-extrabold text-yellow-500">
+              <h2 className="text-3xl font-extrabold text-yellow-500">
                 Feedback
-              </div>
+              </h2>
 
               <p className="mt-2 text-sm leading-6 text-slate-500">
                 Share your thoughts and suggestions
@@ -71,9 +73,9 @@ function ContactHero() {
 
             {/* Information */}
             <div className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-md">
-              <div className="text-3xl font-extrabold text-yellow-500">
+              <h2 className="text-3xl font-extrabold text-yellow-500">
                 Information
-              </div>
+              </h2>
 
               <p className="mt-2 text-sm leading-6 text-slate-500">
                 Learn more about our website

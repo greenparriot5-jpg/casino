@@ -1,9 +1,9 @@
-
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogContent = () => {
   return (
-    <section className="bg-gray-200 py-16 px-4">
+    <section id="blog-posts" className="bg-gray-200 px-4 py-16">
       <div className="mx-auto max-w-5xl">
         <article className="rounded-3xl border border-slate-300 bg-white p-6 shadow-xl sm:p-8 lg:p-10">
 
@@ -117,6 +117,46 @@ const BlogContent = () => {
             responsible entertainment.
           </p>
 
+          {/* Internal Links */}
+          <div className="mt-10 border-t border-slate-200 pt-8">
+
+            <h2 className="mb-5 text-2xl font-bold text-slate-900">
+              Explore Teen Patti Gold
+            </h2>
+
+            <div className="flex flex-wrap gap-3">
+
+              <Link
+                to="/"
+                className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+              >
+                Home
+              </Link>
+
+              <Link
+                to="/about"
+                className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+              >
+                About Teen Patti Gold
+              </Link>
+
+              <Link
+                to="/download"
+                className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+              >
+                Download Teen Patti Gold
+              </Link>
+
+              <Link
+                to="/contact"
+                className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
+              >
+                Contact Us
+              </Link>
+
+            </div>
+          </div>
+
         </article>
       </div>
     </section>
@@ -124,4 +164,3 @@ const BlogContent = () => {
 };
 
 export default BlogContent;
-
