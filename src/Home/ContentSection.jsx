@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const ContentSection = () => {
@@ -15,72 +14,72 @@ const ContentSection = () => {
           <p className="mb-5">
             Teen Patti Gold is a popular online card game that brings the
             traditional Teen Patti experience to mobile devices. Also known as
-            3 Patti, Teen Patti is one of the most familiar Indian-style card
-            games enjoyed by players around the world. Teen Patti Gold combines
-            the classic three-card gameplay with a modern online gaming
-            experience, allowing players to explore different game modes,
-            multiplayer tables, private rooms, and social features. Whether you
-            are a beginner looking for a simple 3 Patti game or an experienced
-            player who already knows the basic Teen Patti rules, Teen Patti Gold
-            offers different options to explore.
+            3 Patti, Teen Patti is one of the familiar Indian-style card games
+            enjoyed by players around the world. Teen Patti Gold combines the
+            classic three-card gameplay with a modern digital experience,
+            allowing players to explore different game modes, multiplayer
+            tables, private rooms, and social features. Whether you are a
+            beginner learning the basic Teen Patti rules or an experienced
+            player familiar with 3 Patti, the game provides different options
+            to explore.
           </p>
 
           <p className="mb-5">
-            One of the common searches related to this game is Teen Patti Gold
-            download. Players who want to install the game should always use an
-            official or trusted source and make sure they are downloading the
-            genuine application. A secure download is important because
-            unofficial APK websites can sometimes provide modified or unsafe
-            files. After installing Teen Patti Gold, players can open the game,
-            explore the available features, and choose a suitable table or game
-            mode. The exact features and availability can change with future
-            updates, so keeping the application updated is recommended.
+            One common search related to this game is Teen Patti Gold download.
+            Players who want to install the game should use an official or
+            trusted source and make sure they are downloading the genuine
+            application. A secure download is important because unofficial APK
+            websites can sometimes provide modified or unsafe files. After
+            installation, players can open Teen Patti Gold, explore available
+            features, and choose a suitable table or game mode. Features and
+            availability may change with future updates, so keeping the
+            application updated is recommended.
           </p>
 
           <p className="mb-5">
             Learning how to play Teen Patti is relatively easy. In the standard
-            version, players receive three cards and compare their hands
+            format, players receive three cards and compare their hands
             according to the traditional Teen Patti ranking system. Common hand
             rankings include Trail, Pure Sequence, Sequence, Colour, Pair, and
             High Card. Understanding these combinations is an important first
-            step for anyone searching for Teen Patti game rules or learning how
-            to play 3 Patti online. Once the basic rankings are understood,
-            beginners can gradually become familiar with different table
-            options and game variations.
+            step for anyone learning Teen Patti game rules or how to play 3
+            Patti online. Once the basic rankings are understood, beginners can
+            gradually become familiar with different table options and game
+            variations.
           </p>
 
           <p className="mb-5">
             Another reason Teen Patti Gold attracts players is its multiplayer
             experience. Online Teen Patti allows players to enjoy card games
             with friends and other participants instead of playing alone.
-            Private rooms can also be useful when friends want to play together
-            at the same table. Social features such as chat and interactive
-            elements can make the experience feel more like sitting around a
+            Private rooms can also be useful when friends want to play
+            together at the same table. Social features such as chat and
+            interactive elements can make the experience feel more like a
             traditional card table. For players who enjoy casual multiplayer
             entertainment, these features add another level of interaction to
             the game.
           </p>
 
           <p className="mb-5">
-            Teen Patti Gold also provides different variations and additional
-            card-game experiences. Depending on the current version, players
-            may find popular Teen Patti variations along with other games such
-            as Rummy, Poker, or Andar Bahar. Different modes give returning
-            players more ways to enjoy online card games and discover new
-            gameplay styles. Beginners can start with the standard Teen Patti
-            format and then explore other variations after becoming comfortable
-            with the basic rules.
+            Teen Patti Gold can also provide different variations and
+            additional card-game experiences. Depending on the current version,
+            players may find popular Teen Patti variations along with other
+            games. Different modes give returning players more ways to explore
+            online card games and discover different gameplay styles. Beginners
+            can start with the standard Teen Patti format and then explore
+            other available variations after becoming comfortable with the
+            basic rules.
           </p>
 
           <p className="mb-5">
             If you are searching for the best Teen Patti game, 3 Patti online,
-            Teen Patti Gold APK, or Teen Patti Gold download, it is important
-            to understand that card games involve chance. There is no guaranteed
-            trick or strategy that can predict every hand or guarantee a
-            particular result. Players should use the game for entertainment,
-            follow the applicable rules and age requirements, and avoid
-            unofficial tools, modified applications, or suspicious links that
-            promise unlimited rewards or guaranteed results.
+            Teen Patti Gold APK, or Teen Patti Gold download, remember that
+            card games involve chance. There is no guaranteed trick or
+            strategy that can predict every hand or guarantee a particular
+            result. Players should use the game for entertainment, follow
+            applicable rules and age requirements, and avoid unofficial tools,
+            modified applications, or suspicious links that promise guaranteed
+            results.
           </p>
 
           <p>
@@ -92,7 +91,7 @@ const ContentSection = () => {
             card rankings and gameplay. If you are already familiar with 3
             Patti, you can explore different variations and multiplayer
             features. Always download the game from a trusted source and enjoy
-            Teen Patti Gold responsibly as a form of digital entertainment.
+            Teen Patti Gold responsibly as digital entertainment.
           </p>
 
           {/* ================= INTERNAL LINKS ================= */}

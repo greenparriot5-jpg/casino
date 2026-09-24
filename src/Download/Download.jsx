@@ -3,10 +3,10 @@ import DownloadContent from "./DownloadContent";
 
 function Download() {
   return (
-    <div>
+    <main>
       <DownloadHero />
       <DownloadContent />
-    </div>
+    </main>
   );
 }
 

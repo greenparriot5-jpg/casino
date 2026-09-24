@@ -2,14 +2,22 @@ import { Link } from "react-router-dom";
 
 function AboutHero() {
   return (
-    <section className="relative overflow-hidden bg-gray-200 py-8 text-slate-900 sm:py-10 lg:py-12">
-
+    <section
+      aria-labelledby="about-page-title"
+      className="relative overflow-hidden bg-gray-200 py-8 text-slate-900 sm:py-10 lg:py-12"
+    >
       {/* Background Effects */}
-      <div className="pointer-events-none absolute left-0 top-0 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl" />
-      <div className="pointer-events-none absolute bottom-0 right-0 h-80 w-80 rounded-full bg-yellow-500/10 blur-3xl" />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute left-0 top-0 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl"
+      />
+
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute bottom-0 right-0 h-80 w-80 rounded-full bg-yellow-500/10 blur-3xl"
+      />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-
         <div className="mx-auto max-w-4xl text-center">
 
           {/* Badge */}
@@ -18,18 +26,21 @@ function AboutHero() {
           </span>
 
           {/* Main H1 */}
-          <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-            Discover the World of
+          <h1
+            id="about-page-title"
+            className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl"
+          >
+            About Teen Patti Gold
             <span className="block text-yellow-500">
-              Teen Patti Gold
+              Classic 3 Patti Card Game
             </span>
           </h1>
 
           {/* Description */}
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
-            Learn more about the three-card game format, its traditional
-            background, digital experience, common terminology and general
-            features in one organized place.
+            Learn about Teen Patti Gold, the traditional three-card game
+            format, basic terminology, digital gameplay experience, and
+            useful information for new and returning players.
           </p>
 
           {/* Buttons */}
@@ -39,7 +50,7 @@ function AboutHero() {
               href="#about-content"
               className="rounded-xl bg-yellow-400 px-7 py-3.5 font-bold text-slate-950 shadow-md shadow-yellow-200 transition duration-300 hover:-translate-y-1 hover:bg-yellow-300 hover:shadow-lg"
             >
-              Learn More
+              Read About Teen Patti Gold
             </a>
 
             <Link

@@ -36,26 +36,28 @@ function ContactForm() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
-        {/* Heading */}
+        {/* Section Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <span className="text-sm font-bold uppercase tracking-wider text-yellow-600">
+
+          <p className="text-sm font-bold uppercase tracking-wider text-yellow-600">
             Contact Form
-          </span>
+          </p>
 
           <h2 className="mt-3 text-3xl font-extrabold text-slate-900 sm:text-4xl">
-            Send Us a Message
+            Send a Message About Teen Patti Gold
           </h2>
 
           <p className="mt-5 text-base leading-8 text-slate-600">
-            Fill out the form below with your details and message.
-            Make sure the information you provide is clear and relevant.
-            If you need general information about Teen Patti Gold,
-            you can also explore our other website pages below.
+            Use the form below to send a general question, suggestion, or
+            feedback about our website and Teen Patti Gold information.
+            Please provide clear and accurate details so your message is easy
+            to understand.
           </p>
         </div>
 
-        {/* Form Area */}
+        {/* Form */}
         <div className="mx-auto mt-14 max-w-4xl">
+
           <div className="rounded-3xl border border-slate-300 bg-white p-6 shadow-xl sm:p-8 lg:p-10">
 
             <form onSubmit={handleSubmit}>
@@ -79,6 +81,7 @@ function ContactForm() {
                     value={formData.name}
                     onChange={handleChange}
                     placeholder="Enter your name"
+                    autoComplete="name"
                     required
                     className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-slate-900 outline-none transition duration-300 placeholder:text-slate-400 focus:border-yellow-400 focus:bg-white focus:ring-4 focus:ring-yellow-400/10"
                   />
@@ -100,6 +103,7 @@ function ContactForm() {
                     value={formData.email}
                     onChange={handleChange}
                     placeholder="Enter your email"
+                    autoComplete="email"
                     required
                     className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-slate-900 outline-none transition duration-300 placeholder:text-slate-400 focus:border-yellow-400 focus:bg-white focus:ring-4 focus:ring-yellow-400/10"
                   />
@@ -143,13 +147,14 @@ function ContactForm() {
                   value={formData.message}
                   onChange={handleChange}
                   placeholder="Write your message here..."
-                  rows="7"
+                  rows={7}
                   required
                   className="w-full resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-slate-900 outline-none transition duration-300 placeholder:text-slate-400 focus:border-yellow-400 focus:bg-white focus:ring-4 focus:ring-yellow-400/10"
-                ></textarea>
+                />
+
               </div>
 
-              {/* Submit Button */}
+              {/* Submit */}
               <div className="mt-8">
                 <button
                   type="submit"
@@ -161,13 +166,23 @@ function ContactForm() {
 
             </form>
 
-            {/* Internal Links */}
+            {/* Internal Navigation */}
             <div className="mt-10 border-t border-slate-200 pt-8">
+
               <h2 className="mb-5 text-2xl font-bold text-slate-900">
                 Explore Teen Patti Gold
               </h2>
 
-              <div className="flex flex-wrap gap-3">
+              <p className="mb-5 text-base leading-7 text-slate-600">
+                Visit the other sections of our website to learn more about
+                Teen Patti Gold, read related articles, or find download
+                information.
+              </p>
+
+              <nav
+                aria-label="Teen Patti Gold website navigation"
+                className="flex flex-wrap gap-3"
+              >
 
                 <Link
                   to="/"
@@ -180,24 +195,25 @@ function ContactForm() {
                   to="/about"
                   className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
                 >
-                  About
+                  About Teen Patti Gold
                 </Link>
 
                 <Link
                   to="/blog"
                   className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
                 >
-                  Blog
+                  Teen Patti Gold Blog
                 </Link>
 
                 <Link
                   to="/download"
                   className="rounded-lg bg-gray-100 px-4 py-2 font-semibold text-gray-800 transition hover:bg-yellow-100"
                 >
-                  Download
+                  Download Teen Patti Gold
                 </Link>
 
-              </div>
+              </nav>
+
             </div>
 
           </div>

@@ -5,15 +5,12 @@ function Footer() {
 
   return (
     <footer className="bg-slate-950 text-white">
-
       {/* Main Footer */}
-      <div className="mx-auto max-w-7xl px-6 pt-10 pb-3 lg:px-8">
-
+      <div className="mx-auto max-w-7xl px-6 pb-3 pt-10 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
 
           {/* Brand / About */}
           <div className="lg:col-span-2">
-
             <NavLink to="/" className="inline-flex items-center">
               <div className="flex h-12 items-center justify-center rounded-xl bg-yellow-400 px-4 text-slate-950 shadow-lg shadow-yellow-400/20">
                 <h2 className="text-xl font-extrabold">
@@ -23,18 +20,15 @@ function Footer() {
               </div>
             </NavLink>
 
-            {/* 50 Words Article */}
             <p className="mt-5 max-w-xl text-sm leading-7 text-slate-400">
-              Teen Patti Gold is a popular digital card-game experience based
-              on the classic 3 Patti format. Players can explore different
-              game modes, multiplayer tables, and social features. Learn about
-              Teen Patti Gold, its gameplay, download information, card rules,
-              and useful tips through our website.
+              Teen Patti Gold is a digital card-game experience based on the
+              classic 3 Patti format. Explore game information, card rankings,
+              gameplay guides, download information, and useful articles about
+              Teen Patti Gold.
             </p>
 
             {/* Highlights */}
             <div className="mt-6 grid max-w-xl gap-3 sm:grid-cols-3">
-
               <div className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3">
                 <span className="text-xs font-semibold text-slate-300">
                   Easy Guides
@@ -52,20 +46,16 @@ function Footer() {
                   Modern Design
                 </span>
               </div>
-
             </div>
-
           </div>
 
           {/* Quick Links */}
           <div>
-
             <h3 className="text-sm font-bold uppercase tracking-wider text-yellow-400">
               Quick Links
             </h3>
 
             <ul className="mt-5 space-y-3">
-
               <li>
                 <NavLink
                   to="/"
@@ -110,60 +100,53 @@ function Footer() {
                   Download
                 </NavLink>
               </li>
-
             </ul>
-
           </div>
 
           {/* Information */}
           <div>
-
             <h3 className="text-sm font-bold uppercase tracking-wider text-yellow-400">
               Information
             </h3>
 
             <ul className="mt-5 space-y-3">
-
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to="/"
                   className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
                 >
                   Game Information
-                </a>
+                </NavLink>
               </li>
 
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to="/about"
                   className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
                 >
                   Card Rankings
-                </a>
+                </NavLink>
               </li>
 
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to="/blog"
                   className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
                 >
                   Game Terminology
-                </a>
+                </NavLink>
               </li>
 
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to="/download"
                   className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
                 >
                   General Guidelines
-                </a>
+                </NavLink>
               </li>
-
             </ul>
-
           </div>
-
         </div>
 
         {/* Divider */}
@@ -171,26 +154,24 @@ function Footer() {
 
         {/* Bottom */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-
           <p className="text-xs text-slate-500 sm:text-sm">
             © {currentYear} Teen Patti Gold. All rights reserved.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 sm:gap-5 sm:text-sm">
-
-            <a
-              href="#"
+            <NavLink
+              to="/"
               className="transition duration-300 hover:text-yellow-400"
             >
-              Privacy Policy
-            </a>
+              Privacy Information
+            </NavLink>
 
-            <a
-              href="#"
+            <NavLink
+              to="/about"
               className="transition duration-300 hover:text-yellow-400"
             >
-              Terms & Conditions
-            </a>
+              Terms Information
+            </NavLink>
 
             <NavLink
               to="/contact"
@@ -198,14 +179,11 @@ function Footer() {
             >
               Contact
             </NavLink>
-
           </div>
-
         </div>
 
         {/* Back To Top */}
         <div className="mt-5 flex justify-center sm:justify-end">
-
           <button
             type="button"
             onClick={() =>
@@ -219,11 +197,8 @@ function Footer() {
           >
             Back to Top
           </button>
-
         </div>
-
       </div>
-
     </footer>
   );
 }

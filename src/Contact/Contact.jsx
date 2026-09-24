@@ -3,10 +3,10 @@ import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
-    <div>
+    <main>
       <ContactHero />
       <ContactForm />
-    </div>
+    </main>
   );
 }
 

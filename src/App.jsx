@@ -1,18 +1,15 @@
+import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 
-// Components
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
-// Pages
 import Home from "./Home/Home";
 import About from "./About/About";
-import Contact from "./Contact/Contact";
 import Blog from "./Blog/Blog";
+import Contact from "./Contact/Contact";
 import Download from "./Download/Download";
 
-// Scroll To Top
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -29,21 +26,23 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="min-h-screen bg-gray-200 text-slate-900">
       <ScrollToTop />
 
       <Header />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/download" element={<Download />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/download" element={<Download />} />
+        </Routes>
+      </main>
 
       <Footer />
-    </BrowserRouter>
+    </div>
   );
 }
 

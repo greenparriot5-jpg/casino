@@ -23,13 +23,10 @@ function HeroSection() {
         {/* ================= CENTER IMAGE ================= */}
         <div className="relative mx-auto mt-8 max-w-2xl">
 
-          {/* Soft Glow */}
           <div className="absolute -inset-4 rounded-3xl bg-yellow-400/10 blur-2xl" />
 
-          {/* Image Box */}
           <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-1.5 shadow-lg shadow-slate-200/60">
 
-            {/* GAME IMAGE */}
             <a
               href={gameLink}
               className="block w-full cursor-pointer"
@@ -37,17 +34,21 @@ function HeroSection() {
             >
               <img
                 src={gameImage}
-                alt="Teen Patti Gold game"
+                alt="Teen Patti Gold 3 Patti online card game"
+                width="1200"
+                height="675"
+                loading="eager"
+                fetchPriority="high"
                 className="block h-[230px] w-full rounded-xl object-cover sm:h-[280px]"
               />
             </a>
+
           </div>
         </div>
 
         {/* ================= BUTTONS ================= */}
-        <div className="mt-6 flex justify-center gap-3">
+        <div className="mt-6 flex flex-wrap justify-center gap-3">
 
-          {/* Learn More */}
           <Link
             to="/about"
             className="rounded-lg border border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-700 shadow-sm transition duration-300 hover:-translate-y-0.5 hover:border-slate-300 hover:bg-slate-50"
@@ -55,15 +56,15 @@ function HeroSection() {
             Learn More
           </Link>
 
-          {/* Download */}
           <a
             href={gameLink}
-            download
             className="inline-flex items-center gap-2 rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-md shadow-yellow-200 transition duration-300 hover:-translate-y-0.5 hover:bg-yellow-300 hover:shadow-lg"
+            aria-label="Download Teen Patti Gold"
           >
-            <FaDownload />
+            <FaDownload aria-hidden="true" />
             Download Now
           </a>
+
         </div>
       </div>
 
@@ -88,16 +89,16 @@ function HeroSection() {
 
             <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
               Welcome to Teen Patti Gold, a modern digital gaming experience
-              designed with simple navigation, useful information and an
-              easy-to-understand interface for visitors.
+              designed with simple navigation, useful information and
+              easy-to-understand information about 3 Patti gameplay.
             </p>
+
           </div>
 
           {/* ================= MAIN ARTICLE CARD ================= */}
           <div className="mx-auto mt-12 max-w-5xl">
             <div className="rounded-3xl border border-slate-300 bg-white p-7 shadow-lg shadow-slate-300/40 sm:p-10 lg:p-12">
 
-              {/* INTRO */}
               <section>
                 <h2 className="text-2xl font-extrabold text-slate-900 sm:text-3xl">
                   Welcome to Teen Patti Gold
@@ -105,21 +106,48 @@ function HeroSection() {
 
                 <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
                   Teen Patti Gold brings the familiar three-card game format
-                  into a modern digital environment. Our website is designed to
-                  provide visitors with useful information about the game, basic
-                  gameplay, card rankings, terminology and important features
-                  in one convenient place.
+                  into a modern digital environment. Our website provides
+                  useful information about Teen Patti Gold, basic gameplay,
+                  card rankings, terminology, game features and download
+                  guidance in one convenient place.
                 </p>
 
                 <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
                   Whether you are discovering Teen Patti Gold for the first
-                  time or already understand the basic format, our goal is to
-                  keep the experience simple, clear and easy to explore.
+                  time or already understand the basic 3 Patti format, our
+                  goal is to keep the information simple, clear and easy to
+                  explore.
+                </p>
+
+                <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+                  You can learn more about the game through our
+                  <Link
+                    to="/about"
+                    className="mx-1 font-semibold text-yellow-600 hover:text-yellow-700"
+                  >
+                    About Teen Patti Gold
+                  </Link>
+                  page, read useful information on the
+                  <Link
+                    to="/blog"
+                    className="mx-1 font-semibold text-yellow-600 hover:text-yellow-700"
+                  >
+                    Teen Patti Gold Blog
+                  </Link>
+                  , or visit the
+                  <Link
+                    to="/download"
+                    className="mx-1 font-semibold text-yellow-600 hover:text-yellow-700"
+                  >
+                    Download
+                  </Link>
+                  page for general installation guidance.
                 </p>
               </section>
 
             </div>
           </div>
+
         </div>
       </article>
     </section>

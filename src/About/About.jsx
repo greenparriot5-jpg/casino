@@ -3,10 +3,10 @@ import AboutContent from "./AboutContent";
 
 function About() {
   return (
-    <div>
+    <main>
       <AboutHero />
       <AboutContent />
-    </div>
+    </main>
   );
 }
 

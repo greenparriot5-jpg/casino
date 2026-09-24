@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
-import { FaDownload, FaArrowDown, FaMobileAlt } from "react-icons/fa";
+import {
+  FaDownload,
+  FaArrowDown,
+  FaMobileAlt,
+} from "react-icons/fa";
 
 const GAME_URL =
   "https://3pattino1.com?from_gameid=8254399&channelCode=7820420";
@@ -25,30 +29,32 @@ function DownloadHero() {
             Teen Patti Gold Download
           </span>
 
-          {/* Main H1 */}
+          {/* Single Main H1 */}
           <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
             Download
             <span className="text-yellow-500"> Teen Patti Gold</span>
             <span className="block">and Get Started</span>
           </h1>
 
-          {/* Center Image */}
+          {/* Game Image */}
           <div className="relative mx-auto mt-8 max-w-2xl">
 
-            {/* Soft Glow */}
             <div className="absolute -inset-4 rounded-3xl bg-yellow-400/10 blur-2xl" />
 
-            {/* Image Box */}
             <div className="relative overflow-hidden rounded-2xl border border-gray-300 bg-white p-1.5 shadow-xl shadow-gray-400/30">
 
               <a
                 href={GAME_URL}
+                target="_blank"
+                rel="nofollow sponsored noopener"
                 className="block"
-                aria-label="Download Teen Patti Gold"
+                aria-label="Visit Teen Patti Gold"
               >
                 <img
                   src={IMAGE_URL}
-                  alt="Teen Patti Gold game download"
+                  alt="Teen Patti Gold game"
+                  width="800"
+                  height="450"
                   className="block h-[220px] w-full rounded-xl object-cover transition duration-300 hover:scale-[1.02] sm:h-[280px]"
                 />
               </a>
@@ -58,9 +64,9 @@ function DownloadHero() {
 
           {/* Description */}
           <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-gray-600 sm:text-lg">
-            Learn about Teen Patti Gold, its digital card-game experience,
-            supported devices, general features and useful information before
-            getting started.
+            Learn about Teen Patti Gold, its classic three-card format,
+            digital card-game experience, supported mobile devices and
+            important information to review before getting started.
           </p>
 
           {/* Buttons */}
@@ -69,8 +75,10 @@ function DownloadHero() {
             {/* Download */}
             <a
               href={GAME_URL}
+              target="_blank"
+              rel="nofollow sponsored noopener"
               className="group inline-flex items-center gap-3 rounded-xl bg-yellow-400 px-7 py-3.5 font-bold text-gray-900 shadow-lg shadow-yellow-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-300 hover:shadow-xl"
-              aria-label="Download Teen Patti Gold"
+              aria-label="Visit Teen Patti Gold download"
             >
               <FaDownload />
 
@@ -101,7 +109,7 @@ function DownloadHero() {
               </div>
 
               <p className="mt-2 text-sm text-gray-600">
-                Digital-friendly interface
+                Mobile-friendly digital experience
               </p>
 
             </div>
@@ -114,7 +122,7 @@ function DownloadHero() {
               </div>
 
               <p className="mt-2 text-sm text-gray-600">
-                Easy-to-understand information
+                Easy-to-understand game information
               </p>
 
             </div>
@@ -127,7 +135,7 @@ function DownloadHero() {
               </div>
 
               <p className="mt-2 text-sm text-gray-600">
-                Contemporary digital experience
+                Contemporary digital card experience
               </p>
 
             </div>

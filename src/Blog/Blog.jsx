@@ -3,10 +3,10 @@ import BlogContent from "./BlogContent";
 
 function Blog() {
   return (
-    <div>
+    <main>
       <BlogHero />
       <BlogContent />
-    </div>
+    </main>
   );
 }
 
