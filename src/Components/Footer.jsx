@@ -3,149 +3,214 @@ import { NavLink } from "react-router-dom";
 function Footer() {
   const currentYear = new Date().getFullYear();
 
+  const footerLinks = [
+    {
+      name: "Home",
+      path: "/",
+    },
+    {
+      name: "About Teen Patti Gold",
+      path: "/about",
+    },
+    {
+      name: "Teen Patti Gold Blog",
+      path: "/blog",
+    },
+    {
+      name: "Contact Us",
+      path: "/contact",
+    },
+    {
+      name: "Download Teen Patti Gold",
+      path: "/download",
+    },
+  ];
+
+  const informationLinks = [
+    {
+      name: "Teen Patti Gold Information",
+      path: "/",
+    },
+    {
+      name: "3 Patti Game Guide",
+      path: "/about",
+    },
+    {
+      name: "Teen Patti Gold Articles",
+      path: "/blog",
+    },
+    {
+      name: "Teen Patti Gold Download Guide",
+      path: "/download",
+    },
+    {
+      name: "Teen Patti Gold Contact",
+      path: "/contact",
+    },
+  ];
+
   return (
     <footer className="bg-slate-950 text-white">
+
       {/* Main Footer */}
-      <div className="mx-auto max-w-7xl px-6 pb-3 pt-10 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 pb-4 pt-12 lg:px-8">
+
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
 
           {/* Brand / About */}
           <div className="lg:col-span-2">
-            <NavLink to="/" className="inline-flex items-center">
+
+            <NavLink
+              to="/"
+              end
+              aria-label="Teen Patti Gold home page"
+              className="inline-flex items-center"
+            >
               <div className="flex h-12 items-center justify-center rounded-xl bg-yellow-400 px-4 text-slate-950 shadow-lg shadow-yellow-400/20">
-                <h2 className="text-xl font-extrabold">
+                <span className="text-xl font-extrabold">
                   Teen Patti
                   <span className="text-slate-950"> Gold</span>
-                </h2>
+                </span>
               </div>
             </NavLink>
 
             <p className="mt-5 max-w-xl text-sm leading-7 text-slate-400">
-              Teen Patti Gold is a digital card-game experience based on the
-              classic 3 Patti format. Explore game information, card rankings,
-              gameplay guides, download information, and useful articles about
-              Teen Patti Gold.
+              Teen Patti Gold is a digital card-game information website
+              covering 3 Patti gameplay, card rankings, game guides,
+              download information, and useful articles for players who want
+              to learn more about the Teen Patti experience.
             </p>
 
-            {/* Highlights */}
+            {/* Internal Content Links */}
             <div className="mt-6 grid max-w-xl gap-3 sm:grid-cols-3">
-              <div className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3">
-                <span className="text-xs font-semibold text-slate-300">
-                  Easy Guides
-                </span>
-              </div>
 
-              <div className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3">
+              <NavLink
+                to="/about"
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 transition duration-300 hover:border-yellow-400/30 hover:bg-white/[0.06]"
+              >
                 <span className="text-xs font-semibold text-slate-300">
-                  Useful Content
+                  About Teen Patti Gold
                 </span>
-              </div>
+              </NavLink>
 
-              <div className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3">
+              <NavLink
+                to="/blog"
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 transition duration-300 hover:border-yellow-400/30 hover:bg-white/[0.06]"
+              >
                 <span className="text-xs font-semibold text-slate-300">
-                  Modern Design
+                  Teen Patti Gold Blog
                 </span>
-              </div>
+              </NavLink>
+
+              <NavLink
+                to="/download"
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 transition duration-300 hover:border-yellow-400/30 hover:bg-white/[0.06]"
+              >
+                <span className="text-xs font-semibold text-slate-300">
+                  Download Guide
+                </span>
+              </NavLink>
+
             </div>
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-sm font-bold uppercase tracking-wider text-yellow-400">
+          <nav aria-label="Footer navigation">
+
+            <h2 className="text-sm font-bold uppercase tracking-wider text-yellow-400">
               Quick Links
-            </h3>
+            </h2>
 
             <ul className="mt-5 space-y-3">
-              <li>
-                <NavLink
-                  to="/"
-                  className="text-sm text-slate-400 transition duration-300 hover:pl-1 hover:text-yellow-400"
-                >
-                  Home
-                </NavLink>
-              </li>
 
-              <li>
-                <NavLink
-                  to="/about"
-                  className="text-sm text-slate-400 transition duration-300 hover:pl-1 hover:text-yellow-400"
-                >
-                  About Us
-                </NavLink>
-              </li>
+              {footerLinks.map((link) => (
+                <li key={link.path}>
+                  <NavLink
+                    to={link.path}
+                    end={link.path === "/"}
+                    className="text-sm text-slate-400 transition duration-300 hover:pl-1 hover:text-yellow-400"
+                  >
+                    {link.name}
+                  </NavLink>
+                </li>
+              ))}
 
-              <li>
-                <NavLink
-                  to="/blog"
-                  className="text-sm text-slate-400 transition duration-300 hover:pl-1 hover:text-yellow-400"
-                >
-                  Blog
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/contact"
-                  className="text-sm text-slate-400 transition duration-300 hover:pl-1 hover:text-yellow-400"
-                >
-                  Contact Us
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/download"
-                  className="text-sm text-slate-400 transition duration-300 hover:pl-1 hover:text-yellow-400"
-                >
-                  Download
-                </NavLink>
-              </li>
             </ul>
-          </div>
+
+          </nav>
 
           {/* Information */}
-          <div>
-            <h3 className="text-sm font-bold uppercase tracking-wider text-yellow-400">
+          <nav aria-label="Teen Patti Gold information">
+
+            <h2 className="text-sm font-bold uppercase tracking-wider text-yellow-400">
               Information
-            </h3>
+            </h2>
 
             <ul className="mt-5 space-y-3">
-              <li>
-                <NavLink
-                  to="/"
-                  className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
-                >
-                  Game Information
-                </NavLink>
-              </li>
 
-              <li>
-                <NavLink
-                  to="/about"
-                  className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
-                >
-                  Card Rankings
-                </NavLink>
-              </li>
+              {informationLinks.map((link) => (
+                <li key={`${link.path}-${link.name}`}>
+                  <NavLink
+                    to={link.path}
+                    end={link.path === "/"}
+                    className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
+                  >
+                    {link.name}
+                  </NavLink>
+                </li>
+              ))}
 
-              <li>
-                <NavLink
-                  to="/blog"
-                  className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
-                >
-                  Game Terminology
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/download"
-                  className="text-sm text-slate-400 transition duration-300 hover:text-yellow-400"
-                >
-                  General Guidelines
-                </NavLink>
-              </li>
             </ul>
+
+          </nav>
+
+        </div>
+
+        {/* Footer Internal Navigation */}
+        <div className="mt-10 rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+
+          <h2 className="text-sm font-bold text-white">
+            Explore Teen Patti Gold
+          </h2>
+
+          <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3">
+
+            <NavLink
+              to="/"
+              end
+              className="text-sm text-slate-400 transition hover:text-yellow-400"
+            >
+              Home
+            </NavLink>
+
+            <NavLink
+              to="/about"
+              className="text-sm text-slate-400 transition hover:text-yellow-400"
+            >
+              About Us
+            </NavLink>
+
+            <NavLink
+              to="/blog"
+              className="text-sm text-slate-400 transition hover:text-yellow-400"
+            >
+              Blog
+            </NavLink>
+
+            <NavLink
+              to="/contact"
+              className="text-sm text-slate-400 transition hover:text-yellow-400"
+            >
+              Contact Us
+            </NavLink>
+
+            <NavLink
+              to="/download"
+              className="text-sm text-slate-400 transition hover:text-yellow-400"
+            >
+              Download Teen Patti Gold
+            </NavLink>
+
           </div>
         </div>
 
@@ -154,23 +219,25 @@ function Footer() {
 
         {/* Bottom */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+
           <p className="text-xs text-slate-500 sm:text-sm">
             © {currentYear} Teen Patti Gold. All rights reserved.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 sm:gap-5 sm:text-sm">
-            <NavLink
-              to="/"
-              className="transition duration-300 hover:text-yellow-400"
-            >
-              Privacy Information
-            </NavLink>
 
             <NavLink
               to="/about"
               className="transition duration-300 hover:text-yellow-400"
             >
-              Terms Information
+              About
+            </NavLink>
+
+            <NavLink
+              to="/blog"
+              className="transition duration-300 hover:text-yellow-400"
+            >
+              Blog
             </NavLink>
 
             <NavLink
@@ -179,11 +246,21 @@ function Footer() {
             >
               Contact
             </NavLink>
+
+            <NavLink
+              to="/download"
+              className="transition duration-300 hover:text-yellow-400"
+            >
+              Download
+            </NavLink>
+
           </div>
+
         </div>
 
         {/* Back To Top */}
         <div className="mt-5 flex justify-center sm:justify-end">
+
           <button
             type="button"
             onClick={() =>
@@ -197,7 +274,9 @@ function Footer() {
           >
             Back to Top
           </button>
+
         </div>
+
       </div>
     </footer>
   );
