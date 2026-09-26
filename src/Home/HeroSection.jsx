@@ -12,7 +12,7 @@ function HeroSection() {
     <section className="bg-gray-200 text-slate-900">
 
       {/* Hero */}
-      <div className="mx-auto max-w-6xl px-6 pb-14 pt-10 lg:px-8">
+      <div className="mx-auto max-w-6xl px-6 pt-10 lg:px-8">
 
         <div className="flex justify-center">
           <span className="rounded-full border border-yellow-400/30 bg-yellow-50 px-4 py-2 text-xs font-semibold text-yellow-600 sm:text-sm">

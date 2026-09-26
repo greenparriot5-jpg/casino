@@ -6,7 +6,7 @@ function BlogHero() {
     <section
       id="blog"
       aria-labelledby="blog-page-title"
-      className="relative overflow-hidden bg-gray-200 py-8 text-slate-900 sm:py-10 lg:py-12"
+      className="relative overflow-hidden bg-gray-200 py-8 text-slate-900 sm:py-10 lg:py-8"
     >
       <div
         aria-hidden="true"

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import DownloadHero from "./DownloadHero";
 import DownloadContent from "./DownloadContent";
+import Keyword from "./Keyword";
 
 function Download() {
   return (
@@ -67,6 +68,7 @@ function Download() {
       <main>
         <DownloadHero />
         <DownloadContent />
+        <Keyword/>
       </main>
     </>
   );

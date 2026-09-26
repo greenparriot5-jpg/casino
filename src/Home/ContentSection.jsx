@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const ContentSection = () => {
   return (
-    <section className="bg-gray-200 px-4 py-16">
+    <section className="bg-gray-200 px-4 ">
       <div className="mx-auto max-w-5xl">
 
         <article className="rounded-2xl bg-white p-6 leading-8 text-gray-700 shadow-md md:p-10">

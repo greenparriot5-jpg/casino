@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import ContactHero from "./ContactHero";
 import ContactForm from "./ContactForm";
+import Keyword from "./Keyword";
 
 function Contact() {
   return (
@@ -62,6 +63,7 @@ function Contact() {
       <main>
         <ContactHero />
         <ContactForm />
+        <Keyword/>
       </main>
     </>
   );

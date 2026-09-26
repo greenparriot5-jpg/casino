@@ -4,7 +4,7 @@ function AboutHero() {
   return (
     <section
       aria-labelledby="about-page-title"
-      className="relative overflow-hidden bg-gray-200 py-10 text-slate-900 sm:py-12 lg:py-16"
+      className="relative overflow-hidden bg-gray-200 py-10 text-slate-900 sm:py-12 lg:py-8"
     >
       <div
         aria-hidden="true"

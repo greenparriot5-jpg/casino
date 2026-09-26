@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import BlogHero from "./BlogHero";
 import BlogContent from "./BlogContent";
+import Keyword from "./Keyword";
 
 function Blog() {
   return (
@@ -14,6 +15,7 @@ function Blog() {
       <main>
         <BlogHero />
         <BlogContent />
+        <Keyword/>
       </main>
     </>
   );
