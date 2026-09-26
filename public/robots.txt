@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://teen3pattigold.net/sitemap.xml
+Sitemap: https://teen3pattigold.net/sitemap.xml 

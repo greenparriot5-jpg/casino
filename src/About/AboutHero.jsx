@@ -93,7 +93,7 @@ function AboutHero() {
           </div>
 
         </div>
-      </div>
+      </div> 
     </section>
   );
 }
