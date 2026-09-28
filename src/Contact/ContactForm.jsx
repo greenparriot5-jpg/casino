@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -37,7 +38,7 @@ function ContactForm() {
     <section
       id="contact-content"
       aria-labelledby="contact-form-title"
-      className="bg-gray-200 py-16 sm:py-20 lg:py-2 "
+      className="bg-gray-200 py-16 sm:py-20 lg:py-2"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Content Introduction */}
@@ -47,42 +48,57 @@ function ContactForm() {
               id="contact-form-title"
               className="text-3xl font-extrabold text-slate-900 sm:text-4xl"
             >
-              Contact Teen Patti Gold
+              <strong>Teen Patti Gold Contact</strong> &amp; Support
             </h2>
 
             <p className="mt-5 text-base leading-8 text-slate-600">
-              Our contact page is available for visitors who want to ask a
-              general question, provide website feedback, or request
-              clarification about information published on Teen Patti Gold. You
-              can contact us about Teen Patti gameplay, 3 Patti card rankings,
-              download guidance, website articles, or other general topics
-              covered on the site.
+              Our <strong>Teen Patti Gold Contact</strong> page is available
+              for visitors who want to ask a general question, provide website
+              feedback, or request clarification about information published on
+              Teen Patti Gold. You can contact us about{" "}
+              <strong>Teen Patti Gold Support</strong>,{" "}
+              <strong>Teen Patti Gold Customer Support</strong>,{" "}
+              <strong>Teen Patti Gold Game Support</strong>, Teen Patti
+              gameplay, 3 Patti card rankings, download guidance, website
+              articles, or other general topics covered on the site.
             </p>
 
             <p className="mt-5 text-base leading-8 text-slate-600">
-              Before submitting a question, you may find the information you
-              need in our
+              Visitors looking for <strong>Teen Patti Gold Help</strong>,{" "}
+              <strong>Teen Patti Gold Customer Service</strong>,{" "}
+              <strong>Teen Patti Gold App Support</strong>, or{" "}
+              <strong>Teen Patti Gold Online Support</strong> can use the form
+              below to send a general question. You can also learn more about
+              the game through our{" "}
               <Link
                 to="/blog"
                 className="mx-1 font-semibold text-yellow-700 hover:text-yellow-800"
               >
-                Teen Patti Gold Blog
-              </Link>
-              or on the
+                <strong>Teen Patti Gold Blog</strong>
+              </Link>{" "}
+              or the{" "}
               <Link
                 to="/about"
                 className="mx-1 font-semibold text-yellow-700 hover:text-yellow-800"
               >
-                About Teen Patti Gold
-              </Link>
-              page. Visitors interested in installation information can also
-              review our
+                <strong>About Teen Patti Gold</strong>
+              </Link>{" "}
+              page.
+            </p>
+
+            <p className="mt-5 text-base leading-8 text-slate-600">
+              For visitors needing <strong>Teen Patti Gold Download Help</strong>,
+              <strong> Teen Patti Gold Account Help</strong>,{" "}
+              <strong>Teen Patti Gold Registration Help</strong>, or{" "}
+              <strong>Teen Patti Gold Game Help</strong>, the website provides
+              general information and related resources. Installation guidance
+              is also available on our{" "}
               <Link
                 to="/download"
                 className="mx-1 font-semibold text-yellow-700 hover:text-yellow-800"
               >
-                Teen Patti Gold Download
-              </Link>
+                <strong>Teen Patti Gold Download</strong>
+              </Link>{" "}
               page.
             </p>
           </div>
@@ -93,7 +109,7 @@ function ContactForm() {
           <div className="rounded-3xl border border-slate-300 bg-white p-6 shadow-xl sm:p-8 lg:p-10">
             <div className="mb-8">
               <p className="text-sm font-bold uppercase tracking-wider text-yellow-600">
-                Contact Form
+                <strong>Teen Patti Gold Contact Form</strong>
               </p>
 
               <h2 className="mt-2 text-2xl font-extrabold text-slate-900 sm:text-3xl">
@@ -103,7 +119,8 @@ function ContactForm() {
               <p className="mt-4 text-base leading-7 text-slate-600">
                 Complete the form below with your name, email address, subject,
                 and message. Clear information helps us understand your question
-                about Teen Patti Gold or the website.
+                about <strong>Teen Patti Gold User Support</strong>, the website,
+                or general game information.
               </p>
             </div>
 
@@ -225,8 +242,9 @@ function ContactForm() {
               </h2>
 
               <p className="mb-6 max-w-3xl text-base leading-7 text-slate-600">
-                Continue exploring the website to learn about Teen Patti Gold, 3
-                Patti gameplay, card rankings, download information, and useful
+                Continue exploring the website to learn about{" "}
+                <strong>Teen Patti Gold Pakistan Support</strong>, 3 Patti
+                gameplay, card rankings, download information, and useful
                 guides.
               </p>
 
@@ -266,7 +284,8 @@ function ContactForm() {
         {/* Additional SEO Content */}
         <article className="mx-auto mt-12 max-w-5xl rounded-3xl border border-slate-300 bg-white p-7 shadow-md sm:p-10">
           <h2 className="text-2xl font-extrabold text-slate-900 sm:text-3xl">
-            Teen Patti Gold Game Information
+            <strong>Teen Patti Gold Technical Support</strong> &amp; Game
+            Information
           </h2>
 
           <p className="mt-5 text-base leading-8 text-slate-600">
@@ -274,7 +293,9 @@ function ContactForm() {
             Patti format, also known as 3 Patti. Visitors can use this website
             to learn about general gameplay concepts, common card rankings,
             terminology, download considerations, and other information related
-            to digital Teen Patti.
+            to digital Teen Patti. For general{" "}
+            <strong>Teen Patti Gold Assistance</strong>, visitors can use the
+            contact form above.
           </p>
 
           <p className="mt-5 text-base leading-8 text-slate-600">
@@ -321,3 +342,4 @@ function ContactForm() {
 }
 
 export default ContactForm;
+
